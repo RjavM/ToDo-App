@@ -23,7 +23,7 @@ function App() {
   
   return (
     <div>
-      <h1>Enter the title and description of your todo:</h1>
+      <h1>Enter the title and description of your task:</h1>
       <CreateTodo getTodos={gettodos}></CreateTodo><br />
       <h1>Your Todos:</h1>
       <Todos todos={todos} getTodos={gettodos}></Todos>
